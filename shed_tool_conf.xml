@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<toolbox tool_path="../shed_tools">
+<section id="LCMS-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/mmonsoor/camera_combinexsannos/ed26298f0246/camera_combinexsannos/abims_CAMERA_combinexsAnnos.xml" guid="toolshed.g2.bx.psu.edu/repos/mmonsoor/camera_combinexsannos/abims_CAMERA_combinexsAnnos/2.0.4">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>camera_combinexsannos</repository_name>
+        <repository_owner>mmonsoor</repository_owner>
+        <installed_changeset_revision>ed26298f0246</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/mmonsoor/camera_combinexsannos/abims_CAMERA_combinexsAnnos/2.0.4</id>
+        <version>2.0.4</version>
+    </tool>
+</section>
+
+<section id="LCMS-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/fc1fa0c70378/camera_annotate/abims_CAMERA_annotateDiffreport.xml" guid="toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.1.5">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>camera_annotate</repository_name>
+        <repository_owner>lecorguille</repository_owner>
+        <installed_changeset_revision>fc1fa0c70378</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/lecorguille/camera_annotate/abims_CAMERA_annotateDiffreport/2.1.5</id>
+        <version>2.1.5</version>
+    </tool>
+</section>
+
+<section id="LCMS-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/cce30b3398e0/xcms_fillpeaks/abims_xcms_fillPeaks.xml" guid="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/2.0.7">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>xcms_fillpeaks</repository_name>
+        <repository_owner>lecorguille</repository_owner>
+        <installed_changeset_revision>cce30b3398e0</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_fillpeaks/abims_xcms_fillPeaks/2.0.7</id>
+        <version>2.0.7</version>
+    </tool>
+</section>
+
+<section id="LCMS-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/5d80e7511dfb/xcms_group/abims_xcms_group.xml" guid="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/2.0.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>xcms_group</repository_name>
+        <repository_owner>lecorguille</repository_owner>
+        <installed_changeset_revision>5d80e7511dfb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_group/abims_xcms_group/2.0.6</id>
+        <version>2.0.6</version>
+    </tool>
+</section>
+
+<section id="LCMS-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_retcor/123824c7eaa8/xcms_retcor/abims_xcms_retcor.xml" guid="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_retcor/abims_xcms_retcor/2.0.7">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>xcms_retcor</repository_name>
+        <repository_owner>lecorguille</repository_owner>
+        <installed_changeset_revision>123824c7eaa8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_retcor/abims_xcms_retcor/2.0.7</id>
+        <version>2.0.7</version>
+    </tool>
+</section>
+
+<section id="LCMS-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_summary/420f42a57916/xcms_summary/abims_xcms_summary.xml" guid="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_summary/abims_xcms_summary/1.0.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>xcms_summary</repository_name>
+        <repository_owner>lecorguille</repository_owner>
+        <installed_changeset_revision>420f42a57916</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_summary/abims_xcms_summary/1.0.2</id>
+        <version>1.0.2</version>
+    </tool>
+</section>
+
+<section id="LCMS-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/69eb0fc05837/xcms_xcmsset/abims_xcms_xcmsSet.xml" guid="toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/2.0.9">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>xcms_xcmsset</repository_name>
+        <repository_owner>lecorguille</repository_owner>
+        <installed_changeset_revision>69eb0fc05837</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/lecorguille/xcms_xcmsset/abims_xcms_xcmsSet/2.0.9</id>
+        <version>2.0.9</version>
+    </tool>
+</section>
+
+<section id="LCMS-normalisation" name="Normalisation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/transformation/d9e05021553c/transformation/transformation_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/transformation/Transformation/2.2.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>transformation</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>d9e05021553c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/transformation/Transformation/2.2.0</id>
+        <version>2.2.0</version>
+    </tool>
+</section>
+
+<section id="LCMS-statistical_analysis" name="Statistical Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/lecorguille/anova/bcd05315efc5/anova/abims_anova.xml" guid="toolshed.g2.bx.psu.edu/repos/lecorguille/anova/abims_anova/1.1.4">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>anova</repository_name>
+        <repository_owner>lecorguille</repository_owner>
+        <installed_changeset_revision>bcd05315efc5</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/lecorguille/anova/abims_anova/1.1.4</id>
+        <version>1.1.4</version>
+    </tool>
+</section>
+
+<section id="LCMS-statistical_analysis" name="Statistical Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/heatmap/db1d80e89156/heatmap/heatmap_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/heatmap/Heatmap/2.2.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>heatmap</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>db1d80e89156</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/heatmap/Heatmap/2.2.2</id>
+        <version>2.2.2</version>
+    </tool>
+</section>
+
+<section id="LCMS-statistical_analysis" name="Statistical Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/univariate/09799fc16bc6/univariate/univariate_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/univariate/Univariate/2.1.4">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>univariate</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>09799fc16bc6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/univariate/Univariate/2.1.4</id>
+        <version>2.1.4</version>
+    </tool>
+</section>
+
+<section id="LCMS-statistical_analysis" name="Statistical Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/multivariate/fa173e12e185/multivariate/multivariate_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/multivariate/Multivariate/2.3.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>multivariate</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>fa173e12e185</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/multivariate/Multivariate/2.3.6</id>
+        <version>2.3.6</version>
+    </tool>
+</section>
+
+<section id="LCMS-quality_control" name="Quality Control" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/b4f5b5bc01dd/qualitymetrics/qualitymetrics_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.4">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>qualitymetrics</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>b4f5b5bc01dd</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.4</id>
+        <version>2.2.4</version>
+    </tool>
+</section>
+
+<section id="LCMS-annotation" name="Annotation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/mmonsoor/probmetab/3a9914b37f2f/probmetab/ProbMetab.xml" guid="toolshed.g2.bx.psu.edu/repos/mmonsoor/probmetab/Probmetab/1.0.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>probmetab</repository_name>
+        <repository_owner>mmonsoor</repository_owner>
+        <installed_changeset_revision>3a9914b37f2f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/mmonsoor/probmetab/Probmetab/1.0.1</id>
+        <version>1.0.1</version>
+    </tool>
+</section>
+
+<section id="LCMS-annotation" name="Annotation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/prog/lcmsmatching/253d531a0193/lcmsmatching/lcmsmatching.xml" guid="toolshed.g2.bx.psu.edu/repos/prog/lcmsmatching/lcmsmatching/3.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>lcmsmatching</repository_name>
+        <repository_owner>prog</repository_owner>
+        <installed_changeset_revision>253d531a0193</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/prog/lcmsmatching/lcmsmatching/3.0</id>
+        <version>3.0</version>
+    </tool>
+</section>
+
+<section id="NMR-preprocessing" name="Preprocessing" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/nmr_bucketing/58679e85745f/nmr_bucketing/NmrBucketing_xml.xml" guid="toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/nmr_bucketing/NmrBucketing/1.0.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>nmr_bucketing</repository_name>
+        <repository_owner>marie-tremblay-metatoul</repository_owner>
+        <installed_changeset_revision>58679e85745f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/nmr_bucketing/NmrBucketing/1.0.2</id>
+        <version>1.0.2</version>
+    </tool>
+</section>
+
+<section id="NMR-normalisation" name="Normalisation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/nmr_normalization/fc66c35dcd4f/nmr_normalization/NmrNormalization_xml.xml" guid="toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/nmr_normalization/NmrNormalization/1.0.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>nmr_normalization</repository_name>
+        <repository_owner>marie-tremblay-metatoul</repository_owner>
+        <installed_changeset_revision>fc66c35dcd4f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/marie-tremblay-metatoul/nmr_normalization/NmrNormalization/1.0.1</id>
+        <version>1.0.1</version>
+    </tool>
+</section>
+
+<section id="LCMS-normalisation" name="Normalisation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/f64656ae9ea4/batchcorrection/determine_bc.xml" guid="toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Determine_BC/2.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>batchcorrection</repository_name>
+        <repository_owner>melpetera</repository_owner>
+        <installed_changeset_revision>f64656ae9ea4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Determine_BC/2.0.0</id>
+        <version>2.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/f64656ae9ea4/batchcorrection/batch_correction.xml" guid="toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/2.0.8">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>batchcorrection</repository_name>
+        <repository_owner>melpetera</repository_owner>
+        <installed_changeset_revision>f64656ae9ea4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/melpetera/batchcorrection/Batch_correction/2.0.8</id>
+        <version>2.0.8</version>
+    </tool>
+</section>
+
+<section id="W4M-Data-Handling" name="Data Handling" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/checkformat/e194eec8e70c/checkformat/checkformat_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/checkformat/checkFormat/2.0.4">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>checkformat</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>e194eec8e70c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/checkformat/checkFormat/2.0.4</id>
+        <version>2.0.4</version>
+    </tool>
+</section>
+
+<section id="LCMS-statistical_analysis" name="Statistical Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/biosigner/b2414be87d4b/biosigner/biosigner_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/biosigner/biosigner/2.2.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>biosigner</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>b2414be87d4b</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/biosigner/biosigner/2.2.6</id>
+        <version>2.2.6</version>
+    </tool>
+</section>
+
+<section id="LCMS-quality_control" name="Quality Control" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/6d3b7b6573d8/qualitymetrics/qualitymetrics_config.xml" guid="toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>qualitymetrics</repository_name>
+        <repository_owner>ethevenot</repository_owner>
+        <installed_changeset_revision>6d3b7b6573d8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/ethevenot/qualitymetrics/quality_metrics/2.2.6</id>
+        <version>2.2.6</version>
+    </tool>
+</section>
+
+<section id="LCMS-annotation" name="Annotation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/9583f9772198/hmdb_ms_search/hmdb/wsdl_hmdb.xml" guid="toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/wsdl_hmdb/2016-01-28">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>hmdb_ms_search</repository_name>
+        <repository_owner>fgiacomoni</repository_owner>
+        <installed_changeset_revision>9583f9772198</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/fgiacomoni/hmdb_ms_search/wsdl_hmdb/2016-01-28</id>
+        <version>2016-01-28</version>
+    </tool>
+</section>
+
+</toolbox>

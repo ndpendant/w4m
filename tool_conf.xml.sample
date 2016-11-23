@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<toolbox>
+  <!--<section id="getext" name="Get Data">-->
+    <tool file="data_source/upload.xml" />
+ <!--</section>-->
+
+
+  <!-- WORKFLOW 4	LCMS TOOLS -->
+
+  <label id="label_LCMS_workflow" text="LC-MS" />
+
+  <section id="LCMS-formatconversion" name="Format Conversion" version="" />
+ 
+<section id="LCMS-preprocessing" name="Preprocessing" version="" /> 
+
+  <section id="LCMS-normalisation" name="Normalisation" version="" />
+
+  <section id="LCMS-quality_control" name="Quality Control" version="" />
+
+  <section id="LCMS-statistical_analysis" name="Statistical Analysis" version="" />
+	<tool file="biosigner/biosigner_config.xml" />
+
+  <section id="LCMS-annotation" name="Annotation" version="" >
+	<tool file="annotation/banks_queries/chemspider-ws/wsdl_chemspider.xml" />
+	<tool file="annotation/banks_queries/hmdb/wsdl_hmdb.xml" />
+	<tool file="annotation/banks_queries/kegg-ws/wsdl_kegg.xml" />
+	<tool file="annotation/banks_queries/lipidmaps/wsdl_lipidmaps.xml" />
+	<tool file="annotation/banks_queries/massbank-ws/wsdl_massbank.xml" />
+	<tool file="annotation/formula_elucidation/hr2/HR2.xml" />
+  </section>
+	
+
+
+  <!-- WORKFLOW 4	GCMS TOOLS -->
+
+  <label id="label_GCMS_workflow" text="GC-MS" />
+
+  <section id="GCMS-formatconversion" name="Format Conversion" version="" />
+
+  <section id="GCMS-preprocessing" name="Preprocessing" version="" /> 
+
+  <section id="GCMS-normalisation" name="Normalisation" version="" />
+
+  <section id="GCMS-quality_control" name="Quality Control" version="" />
+ 
+<section id="GCMS-statistical_analysis" name="Statistical Analysis" version="" />
+
+  <section id="GCMS-annotation" name="Annotation" version="" />
+
+  <!-- WORKFLOW 4 NMR TOOLS -->
+
+  <label id="label_NMR_workflow" text="NMR" />
+
+  <section id="NMR-formatconversion" name="Format Conversion" version="" />
+  <section id="NMR-preprocessing" name="Preprocessing" version="" /> 
+  <section id="NMR-normalisation" name="Normalisation" version="" />
+  <section id="NMR-quality_control" name="Quality Control" version="" />
+  <section id="NMR-statistical_analysis" name="Statistical Analysis" version="" />
+  <section id="NMR-annotation" name="Annotation" version="" />
+
+
+
+  <!-- WORKFLOW 4 UTILS TOOLS -->
+
+  <label id="label_UTILS" text="UTILS TOOLS" />
+
+  <section id="W4M-Data-Handling" name="Data Handling" version="" />
+
+
+
+  <!-- WORKFLOW 4 LCMS TOOLS -->
+
+  <!--<label id="label_LCMS_workfl559082439811	20.0310115430287	21.2328564856097	21.113323235895	21.1714623032779	18.966556562885	17.5660164881208	20.6357387491315
+M80.9747T55	24.4645773194081	24.6730889727654	24.3471395920305	23.1515024621546	22.6446647771207	23.3415591726387	22.976894333777	22.8917762615399	24.3618354749238	21.3342268734047	21.7214223272226	22.2189775515002	23.1445451795495	22.1826701022652	21.9859129385891	23.4834407121308	23.232987924644	22.9494304014154	21.5784452913872	21.9630264802723	20.9943136934676	20.8943983107626	20.6644710074671	20.4405444701801	21.5323774165032	21.9665788031836	21.6011185275112	21.2655535343027	21.1896205199532	20.6624039360946	20.8376295185571	22.0219521718746	21.2772705723399	20.7084143540137	20.1975131505217	19.9909271813385	19.8552390726109	19.6203041174184	20.3378159345752	21.0382213462733	20.1157248152808	20.5095122163188	21.2074627253135	20.7328911141275	21.9530920680811	20.2712212556268	20.2550303129106	20.2225763520749	21.7710677761844	21.9883262366611	19.6152396800755	20.0253155627361	20.1305988828151	22.0516193082424	19.5690184198909	22.4425385637527	21.4201172005316	20.4426983429227	20.1244363458712	21.5334719592798	22.3541096872126	21.1254942097756	22.3686068479145	20.4294891510035	20.1832652708811	20.4638447778902	20.5208087666554	21.9822258715616	20.8717973106335	20.299595713422	20.7146728035553	20.6436657799763	18.7823415180313	22.9494037070942	20.4534400861434	19.910769767484	20.3498951991402	20.6869920158698	20.9544530111896	20.5800269520977	20.7066034230495	22.9316760420167	23.4639699769842	22.6700886899773	22.6402131610298	21.0695807913403	20.2297114681598	21.0360922884674	23.1357331984161	22.6804896228507	21.7394720513015	21.0988067497987	23.414060615425	21.0660863025829	20.5718313110528	20.7435641991111	21.4013071763638	20.0736790105538	22.3677707513738	22.8942785114838	23.3009616083634	22.5370424765925	20.5829952898634	20.509720563203	20.2935591346448	22.0436456409443	21.5631816976324	22.4928389532084	23.2422581837685	20.7190763017192	21.4854743024649	20.65395975413	21.0423141750361	21.1684957805591	24.2969808893678	23.0044287605706	21.2740853662254	21.0937856628465	19.4674410841819	20.8184100701239	20.9481276823624	23.6020743162528	22.8084589759384	23.7143395990144	21.0109997661039	24.704403462661	23.4237013674477	24.763389857664	25.0135540214934	20.8451063816538	21.5188479252349	25.721539070351	22.7659827502575	21.0725458334986	21.0723372528647	21.9196553526513	20.8631063053596	21.1366709514319	25.6093405726339	21.0043110505264	21.2241029593759	21.7416411964603	24.9174284797412	23.1747609161288	25.0301838173879	20.4646236931408	25.4765178615263	26.3357040129469	25.6203391226481	25.0795999967055	24.4200727599431	21.2892269505893	20.5188094329432	21.6097598516483	20.640653790266	21.9373343377972	21.3626528296049	24.6450039081764	21.5826930519305	21.1866757991433	21.7773145578014	21.557762352821	21.038754803829	25.3731906666678	21.2355389117365	20.912262713845	20.1754176710938	25.1530332895391	26.4490933064804	21.2062174818619	26.0837287041404	25.1407859660978	20.8568826342885	25.5189551488551	23.3655238840401	24.1908464178727	19.8845435849654	23.7844135622303	23.4382265266692	24.6357170300657	20.2412392040543	20.3396304301398	ow-dev" text="LC-MS Beta" />-->
+
+  <section id="LCMS-dev-formatconversion" name="Format Conversion" version="" />
+  <section id="LCMS-dev-preprocessing" name="Preprocessing" version="" /> 
+  <section id="LCMS-dev-ormalisation" name="Normalisation" version="" />
+  <section id="LCMS-dev-quality_control" name="Quality Control" version="" />
+  <section id="LCMS-dev-statistical_analysis" name="Statistical Analysis" version="" />
+  <section id="LCMS-dev-annotation" name="Annotation" version="" />
+
+
+  <!-- WORKFLOW 4 GCMS TOOLS -->
+
+  <!--<label id="label_GCMS_workflow-dev" text="GC-MS Beta" />-->
+
+  <section id="GCMS-dev-formatconversion" name="Format Conversion" version="" />
+  <section id="GCMS-dev-preprocessing" name="Preprocessing" version="" /> 
+  <section id="GCMS-dev-normalisation" name="Normalisation" version="" />
+  <section id="GCMS-dev-quality_control" name="Quality Control" version="" />
+  <section id="GCMS-dev-statistical_analysis" name="Statistical Analysis" version="" />
+  <section id="GCMS-dev-annotation" name="Annotation" version="" />
+
+  <!-- WORKFLOW 4 NMR TOOLS -->
+
+  <!--<label id="label_NMR_workflow-dev" text="NMR Beta" />-->
+
+  <section id="NMR-dev-formatconversion" name="Format Conversion" version="" />
+  <section id="NMR-dev-preprocessing" name="Preprocessing" version="" /> 
+  <section id="NMR-dev-normalisation" name="Normalisation" version="" />
+  <section id="NMR-dev-quality_control" name="Quality Control" version="" />
+  <section id="NMR-dev-statistical_analysis" name="Statistical Analysis" version="" />
+  <section id="NMR-dev-annotation" name="Annotation" version="" />
+
+
+<!-- COMMON TOOLS -->
+
+ <label id="label_common" text="COMMON TOOLS" />
+
+ <section id="textutil" name="Text Manipulation">
+    <tool file="filters/fixedValueColumn.xml" />
+    <tool file="filters/catWrapper.xml" />
+    <tool file="filters/cutWrapper.xml" />
+    <tool file="filters/mergeCols.xml" />
+    <tool file="filters/convert_characters.xml" />
+    <tool file="filters/CreateInterval.xml" />
+    <tool file="filters/cutWrapper.xml" />
+    <tool file="filters/changeCase.xml" />
+    <tool file="filters/pasteWrapper.xml" />
+    <tool file="filters/remove_beginning.xml" />
+    <tool file="filters/randomlines.xml" />
+    <tool file="filters/headWrapper.xml" />
+    <tool file="filters/tailWrapper.xml" />
+    <tool file="filters/trimmer.xml" />
+    <tool file="filters/wc_gnu.xml" />
+    <tool file="filters/secure_hash_message_digest.xml" />
+    </section>
+  <section id="filter" name="Filter and Sort">
+    <tool file="stats/filtering.xml" />
+    <tool file="filters/sorter.xml" />
+    <tool file="filters/grep.xml" />
+  </section>
+  <section id="group" name="Join, Subtract and Group">
+    <tool file="filters/joiner.xml" />
+    <tool file="filters/compare.xml" />
+    <tool file="stats/grouping.xml" />
+  </section>
+  <section id="stats" name="Statistics">
+    <tool file="stats/gsummary.xml" />
+    <tool file="filters/uniq.xml" />
+    </section>
+  <section id="plots" name="Graph/Display Data">
+    <tool file="plotting/bar_chart.xml" />
+    <tool file="plotting/boxplot.xml" />
+  </section>
+ 
+  <section id="Old-Tools" name="Deprecared Tools" version=""/>
+</toolbox>
